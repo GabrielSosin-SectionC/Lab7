@@ -1,0 +1,82 @@
+body {
+    background-color: #9195F6;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-text {
+    margin-top: 1%;
+    text-align: center;
+}
+
+textarea {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: #F9F07A solid 2px;
+    border-radius: 10px;
+}
+
+.button {
+    margin-top: 1vh;
+}
+
+input[type=submit] {
+    color: gray;
+    background-color: black;
+    border: #F9F07A solid 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tasks-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tasks{
+    justify-content: space-between;
+}
+
+.tasks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.task-item button {
+    margin-left: 5px;
+    text-decoration: none;
+    justify-content: right;
+    justify-self: right;
+    justify-items: right;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.done button{
+    text-decoration: none;
+}
